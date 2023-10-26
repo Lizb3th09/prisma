@@ -25,4 +25,4 @@ export async function POST(request){
     return NextResponse.json(nuevoArtista)
 }
 
-// Delete y put
+// Delete y put 
