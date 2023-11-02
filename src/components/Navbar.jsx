@@ -27,9 +27,9 @@ const NavBar = () => {
   <div className="hidden sm:flex space-x-9 justify-between m-6 p-4 font-serif text-black ">
 
 
-    <Link href="/Registro"><p className=" bg-white rounded-md w-20 text-center h-7 hover:bg-green-400   "> Registro</p></Link>
-    <Link href="/verRegistros"><p className=" bg-white rounded-md w-20 text-center h-7 hover:bg-green-400   "> Ver Reg</p></Link>
-    <Link href="/"><p className=" bg-white rounded-md w-20 text-center h-7 hover:bg-green-400   "> Home</p></Link>
+    <Link href="/Registro"><p className=" bg-white rounded-md w-20 text-center h-7 hover:bg-teal-300   "> Registro</p></Link>
+    <Link href="/verRegistros"><p className=" bg-white rounded-md w-20 text-center h-7 hover:bg-teal-300   "> Ver Reg</p></Link>
+    <Link href="/"><p className=" bg-white rounded-md w-20 text-center h-7 hover:bg-teal-300   "> Home</p></Link>
 
   </div>
 </Popover>
@@ -52,7 +52,7 @@ const NavBar = () => {
 
 
 
-          <Popover.Panel className={`bg-white  absolute h-2/6 w-2/6  m-5 rounded-md font-serif  ${isMenuOpen ? "block" : "hidden"}`}>
+          <Popover.Panel className={`bg-teal-500 absolute h-2/6 w-2/6  m-5 rounded-md font-serif  ${isMenuOpen ? "block" : "hidden"}`}>
 
 
           <div className=" text-black justify-content flex-end  p-3">  

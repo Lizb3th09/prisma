@@ -6,7 +6,7 @@ const VerRegistroPage = async () => {
 
   return (
     <div>
-      <div className=' bg-green-300 p-5'>
+      <div className=' bg-zinc-900 p-11'>
         {artistas.map((artista) => (
           <TarjetaArtista artista={artista} key={artista.id} />
 
